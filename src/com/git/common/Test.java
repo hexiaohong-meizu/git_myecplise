@@ -3,11 +3,11 @@ package com.git.common;
 public class Test {
 	public static void main(String[] args) {
 		String str=null;
-	    str=String.format("Hi, %s", "ÁÖ¼ÆÇÕ"); // ¸ñÊ½»¯×Ö·û´®
-	    System.out.println(str); // Êä³ö×Ö·û´®±äÁ¿strµÄÄÚÈİ
-	    System.out.printf("3>7µÄ½á¹ûÊÇ£º%b %n", 3>7);
-	    System.out.printf("100µÄÒ»°ëÊÇ£º%d %n", 100/2);
-	    System.out.printf("50ÔªµÄÊé´ò8.5ÕÛ¿ÛÊÇ£º%f Ôª%n", 50*0.85);
-	    System.out.printf("ÉÏÃæµÄÕÛ¿ÛÊÇ%d%% %n", 85);
+	    str=String.format("Hi, %s", "æ—è®¡é’¦"); // æ ¼å¼åŒ–å­—ç¬¦ä¸²
+	    System.out.println(str); // è¾“å‡ºå­—ç¬¦ä¸²å˜é‡strçš„å†…å®¹
+	    System.out.printf("3>7çš„ç»“æœæ˜¯ï¼š%b %n", 3>7);
+	    System.out.printf("100çš„ä¸€åŠæ˜¯ï¼š%d %n", 100/2);
+	    System.out.printf("50å…ƒçš„ä¹¦æ‰“8.5æŠ˜æ‰£æ˜¯ï¼š%f å…ƒ%n", 50*0.85);
+	    System.out.printf("ä¸Šé¢çš„æŠ˜æ‰£æ˜¯%d%% %n", 95);
 	}
 }
